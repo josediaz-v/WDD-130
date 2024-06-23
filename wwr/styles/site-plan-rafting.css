@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+body {
+    font-family: var(--paragrath-font);
+    max-width: 960px;
+    padding: 20px;
+    color: var(--accent2-color);
+    background-color: var(--accent2-color);
+}
+
+:root {
+    --primary-color: #33222A;
+    --secondary-color: #253C78;
+    --accent1-color: #EFB53B;
+    --accent2-color: #FFEECF;
+
+    --heading-font: 'Playwrite NG Modern', handwriting;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #253C78;
+    --nav-link-color: #EFB53B;
+    --nav-hover-link-color: #FFEECF;
+    --nav-hover-background-color: #33222A;
+}
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    color: var(--accent2-color);
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

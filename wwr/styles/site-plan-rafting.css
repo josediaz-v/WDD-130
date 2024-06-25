@@ -23,14 +23,9 @@ body {
     --nav-hover-background-color: #33222A;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 header {
@@ -40,7 +35,7 @@ header {
 
 p {
     padding: 25px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 nav {

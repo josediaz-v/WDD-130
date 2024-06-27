@@ -4,7 +4,7 @@ body {
     font-family: var(--paragrath-font);
     max-width: 960px;
     padding: 20px;
-    color: var(--accent2-color);
+    color: var(--primary-color);
     background-color: var(--accent2-color);
 }
 
@@ -14,7 +14,7 @@ body {
     --accent1-color: #EFB53B;
     --accent2-color: #FFEECF;
 
-    --heading-font: 'Playwrite NG Modern', handwriting;
+    --heading-font: 'Playwrite NG Modern', normal;
     --paragraph-font: 'Arial', sans-serif;
 
     --nav-background-color: #253C78;

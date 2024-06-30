@@ -124,6 +124,11 @@ nav a:hover {
     top: 650px;
 }
 
+.adventure img{
+    max-width: 550px;
+    height: auto;
+}
+
 .sociallinks img {
     position: relative;
     width: 50px;

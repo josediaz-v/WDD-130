@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+* {
+    max-width: 960px;
+}
+
+:root {
+    --primary-color: #33222A;
+    --secondary-color: #253C78;
+    --primary-color--transparent: #33222A80;
+    --secondary-color-transparent: #253C7880;
+    --accent1-color: #EFB53B;
+    --accent2-color: #FFEECF;
+
+    --heading-font: 'Playwrite NG Modern', normal;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #253C78;
+    --nav-link-color: #EFB53B;
+    --nav-hover-link-color: #FFEECF;
+    --nav-hover-background-color: #33222A;
+}
+
+body {
+    font-family: var(--paragrath-font);
+    padding: 20px;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+header img{
+    width: 15%;
+    height: auto;
+}
+
+p {
+    padding: 25px;
+    color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    color: var(--accent2-color);
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero div{
+    display: grid;
+    position: relative;
+    align-items: end;
+}
+
+.hero h1{
+    position: absolute;
+    top: 300px;
+    background-color: var(--primary-color--transparent);
+    width: 900px;
+}
+
+.hero img{
+    display: block;
+    position: absolute;
+    top: 270px;
+    width: 900px;
+    height: auto;
+    size: 20%;
+}
+
+.hero article{
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    width: 800px;
+    background-color: var(--secondary-color-transparent);
+}
+
+.hero article p {
+    color: var(--accent1-color);
+}
+
+.hero article img {
+    position: relative;
+    top: 20px;
+    right: 15px;
+    width: 20%;
+    height: auto;
+    float: right;
+
+}
+
+.history {
+    position: relative;
+    top: 650px;
+}
+
+.adventure {
+    position: relative;
+    top: 650px;
+}
+
+.sociallinks img {
+    position: relative;
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    position: relative;
+    top: 700px;
+}

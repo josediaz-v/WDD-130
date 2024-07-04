@@ -166,7 +166,11 @@ nav a:hover {
 
 figure {
     margin: 0px;
+}
 
+figure caption {
+    border: 1px dotted blue;
+    text-align: center;
 }
 
 .sociallinks img {

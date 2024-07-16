@@ -223,6 +223,7 @@ form {
     align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 4fr 1fr;
+    color: #000;
 }
 
 form input{
@@ -245,8 +246,11 @@ fieldset{
     align-items: center;
 }
 
-.info h4, .questions h4{
-    color: var(--primary-color);
+form h4{
+    border-radius: 0.5rem;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
     grid-row: 1/2;
     grid-column: 1/3;
 }

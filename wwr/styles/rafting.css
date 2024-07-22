@@ -353,33 +353,6 @@ button:hover {
     color: var(--primary-color);
 }
 
-.contact {
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 15rem;
-    text-align: center;
-}
-
-.contact nav{
-    width: 85%;
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-    font-size: 2rem;
-    background-color: var(--accent1-color);
-}
-
-.contact nav a:link, .contact nav a:visited {
-    color: var(--nav-background-color);
-}
-
-.contact nav a:hover {
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-    color: var(--accent1-color);
-    background-color: var(--nav-background-color);
-}
-
 .trips {
     margin: 0 auto;
     display: grid;
@@ -400,6 +373,9 @@ table{
 .trips th {
     background-color: var(--accent1-color);
     border-top-right-radius: 5rem;
+    color: var(--nav-background-color);
+    font-size: 3rem;
+    font-family: var(--heading-font);
 }
 
 .trips h2 {    
@@ -413,6 +389,12 @@ table{
     font-size: 1rem;
 }
 
+.trips p {
+    color: var(--accent1-color);
+    font-size: 1rem;
+    font-family: var(--heading-font);
+}
+
 .trips img {
     border: solid var(--accent1-color) 1rem;    
     border-bottom-right-radius: 1.5rem;
@@ -423,6 +405,34 @@ table{
 
 .trips figcaption{
     font-size: 1.5rem;
+}
+
+.contact {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+.contact nav{
+    width: 85%;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--accent1-color);
+}
+
+.contact nav a:link, .contact nav a:visited {
+    color: var(--nav-background-color);
+}
+
+.contact nav a:hover {
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    color: var(--accent1-color);
+    background-color: var(--nav-background-color);
 }
 
 .sociallinks img {

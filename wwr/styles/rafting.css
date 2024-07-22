@@ -43,7 +43,8 @@ header {
     grid-template-columns: 1fr 2fr;
     justify-items: center;
     align-items: center;
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius: 5rem;
 }
 
 header img {
@@ -77,7 +78,8 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
@@ -174,9 +176,9 @@ figure {
 }
 
 .information {
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    border-top-right-radius: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     display: grid;
     background-color: var(--primary-color);
@@ -237,7 +239,8 @@ figure {
 form {
     padding: 1rem;
     width: 40rem;
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
     margin: 0 auto;
     background-color: var(--primary-color--transparent);
     display: grid;
@@ -259,7 +262,8 @@ form h4 {
 
 fieldset {
     margin: 0.5rem;
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
 }
 
 .info {
@@ -336,7 +340,8 @@ button {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
     border: none;
-    border-radius: .5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
     padding: .75rem;
     font-size: 1.2rem;
     width: 8rem;
@@ -348,6 +353,78 @@ button:hover {
     color: var(--primary-color);
 }
 
+.contact {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    text-align: center;
+}
+
+.contact nav{
+    width: 85%;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    font-size: 2rem;
+    background-color: var(--accent1-color);
+}
+
+.contact nav a:link, .contact nav a:visited {
+    color: var(--nav-background-color);
+}
+
+.contact nav a:hover {
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    color: var(--accent1-color);
+    background-color: var(--nav-background-color);
+}
+
+.trips {
+    margin: 0 auto;
+    display: grid;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+table{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.trips th {
+    background-color: var(--accent1-color);
+    border-top-right-radius: 5rem;
+}
+
+.trips h2 {    
+    color: var(--nav-background-color);
+}
+
+.trips td {
+    padding: 1rem;
+    background-color: var(--nav-background-color);
+    color: var(--accent2-color);
+    font-size: 1rem;
+}
+
+.trips img {
+    border: solid var(--accent1-color) 1rem;    
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    width: 20rem;
+    height: auto;
+}
+
+.trips figcaption{
+    font-size: 1.5rem;
+}
+
 .sociallinks img {
     position: relative;
     width: 50px;
@@ -356,9 +433,18 @@ button:hover {
 
 footer {
     background-color: var(--nav-background-color);
-    position: relative;
+    margin-top: 2rem;
     display: grid;
-    top: 650px;    
+    grid-template-columns: 3fr 1fr;
+    justify-items: center;
+}
+
+.aboutfooter {    
+    background-color: var(--nav-background-color);
+    position: relative;
+    margin-top: 2rem;
+    display: grid;
+    top: 650px;
     grid-template-columns: 3fr 1fr;
     justify-items: center;
 }
